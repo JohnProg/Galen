@@ -1,0 +1,37 @@
+
+@objects
+    username       xpath     //input[@name='login.username']
+    password       xpath     //input[@name='login.password']
+    loginBtn       xpath     //button[contains(text(),'Login')]
+
+
+= Content =
+    
+    @on desktop
+        username:
+            height ~ 41px
+            width ~ 364px
+            above password 5 to 20 px
+
+        password:
+            height ~ 41px
+            width ~ 364px
+
+        login-button:
+            width ~ 85px
+            height ~ 47px
+
+
+    @on mobile
+        username:
+            height ~ 41px
+            width ~ 429px
+            above password 5 to 20 px
+
+        password:
+            height ~ 41px
+            width ~ 429px
+
+        login-button:
+            width ~ 430px
+            height ~ 49px

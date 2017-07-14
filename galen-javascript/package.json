@@ -1,0 +1,16 @@
+{
+  "name": "galenframework",
+  "version": "1.0.0",
+  "description": "This is a framework for testing the responsive websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "home.gspec"
+  },
+  "author": "Deepak Sood",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.30.1",
+    "galenframework-cli": "^2.3.4",
+    "require": "^2.4.20"
+  }
+}
